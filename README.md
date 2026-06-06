@@ -81,7 +81,7 @@ The demo uses four stable string IDs:
 
 The sample creates a small UGUI list, a CoreState repository with matching data items, current and previous selection displays, and a simple world-object highlight.
 
-The demo keeps state and visuals separate. ObjectSelection and CoreState decide what key is selected, while ObjectSelection and GenericUIItems visual strategies decide how selected world objects and UI rows look. More advanced visuals such as DOTween, custom tween packages, outline renderers, shader effects, Animator states, or VFX can be layered on later without changing the selection stack.
+The demo keeps state and visuals separate. ObjectSelection and CoreState decide what key is selected, while sample-only visual code decides how selected world objects and UI rows look. More advanced visuals such as DOTween, custom tween packages, outline renderers, shader effects, Animator states, or VFX can be layered on later without changing the selection stack.
 
 ## Runtime
 

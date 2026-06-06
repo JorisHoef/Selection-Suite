@@ -138,11 +138,7 @@ namespace JorisHoef.SelectionSuite.Samples.SelectionDemo
             _uiContainer = new GenericUIContainer<SelectionSuiteDemoData, string>(
                 _itemsParent,
                 _itemPrefab,
-                item => item.Id,
-                new GraphicTintGenericUIItemVisual<string, SelectionSuiteDemoData>(
-                    new Color(0.18f, 0.19f, 0.20f, 1f),
-                    new Color(0.16f, 0.42f, 0.95f, 1f),
-                    new Color(0.23f, 0.26f, 0.30f, 1f)));
+                item => item.Id);
 
             _repositoryBinding = new RepositoryUIBinding<string, SelectionSuiteDemoData>(
                 _repository,
@@ -331,6 +327,7 @@ namespace JorisHoef.SelectionSuite.Samples.SelectionDemo
             sampleItem.Configure(
                 this,
                 label,
+                item.GetComponent<Image>(),
                 button);
 
             return item.gameObject;

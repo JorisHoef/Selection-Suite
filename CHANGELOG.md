@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Updated the Selection Demo sample to use the stable three-argument `GenericUIContainer<T, TKey>` constructor and sample-only UI row tinting.
 - Updated the Selection Demo sample to use ObjectSelection visual strategies for world tint/scale.
 - Updated the Selection Demo sample to use GenericUIItems visual strategies for selected UI row tinting.
 - Documented optional visual strategies and the separation between selection state and visual representation.

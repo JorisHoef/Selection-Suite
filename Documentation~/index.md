@@ -33,4 +33,4 @@ GenericUIItems
 
 Import `Selection Demo` from Unity Package Manager. The sample builds its primitives and UGUI layout at runtime so it can stay self-contained inside the package.
 
-The sample uses simple dependency-free visual strategies: world objects tint and scale on selection, and UI rows tint when their key is selected. Future visuals such as DOTween, custom tween packages, outline renderers, shader effects, Animator states, or VFX can be added around the same key-based selection flow.
+The sample uses simple dependency-free visual code: world objects tint and scale on selection, and UI rows tint when their key is selected. Future visuals such as DOTween, custom tween packages, outline renderers, shader effects, Animator states, or VFX can be added around the same key-based selection flow.
