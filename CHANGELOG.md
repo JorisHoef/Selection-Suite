@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 - 2026-06-22
+
+- Updated exact selection stack dependencies for the accepted stable release line.
+
 ## 1.0.2 - 2026-06-22
 
 - Updated exact UI Binding stack dependencies to `com.deucarian.ui-binding` `1.1.0` and `com.deucarian.ui-binding.core-state-integration` `1.0.2`.

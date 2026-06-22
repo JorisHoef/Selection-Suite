@@ -89,7 +89,7 @@ The suite has no runtime assembly. Use the runtime APIs from the dependency pack
 
 ## Dependency Versions
 
-This package version depends on `com.deucarian.ui-binding` `1.1.0` and `com.deucarian.ui-binding.core-state-integration` `1.0.2`. Common is resolved transitively through UI Binding; Selection Suite does not reference `com.deucarian.common` directly.
+This package version depends on `com.deucarian.ui-binding` `1.1.0` and `com.deucarian.ui-binding.core-state-integration` `1.0.3`. Common is resolved transitively through UI Binding; Selection Suite does not reference `com.deucarian.common` directly.
 
 ## Architecture / Contributor Notes
 
