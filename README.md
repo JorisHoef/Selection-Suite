@@ -90,3 +90,9 @@ The suite has no runtime assembly. Use the runtime APIs from the dependency pack
 ## Dependency Versions
 
 This package version depends on `com.deucarian.ui-binding` `1.1.0` and `com.deucarian.ui-binding.core-state-integration` `1.0.2`. Common is resolved transitively through UI Binding; Selection Suite does not reference `com.deucarian.common` directly.
+
+## Architecture / Contributor Notes
+
+- [AGENTS.md](AGENTS.md) contains repository-specific ownership and Codex guidance.
+- Deucarian architecture rules live in [Package Registry](https://github.com/Deucarian/Package-Registry/blob/develop/ARCHITECTURE.md).
+- Capability ownership is tracked in [CAPABILITY_OWNERSHIP.md](https://github.com/Deucarian/Package-Registry/blob/develop/CAPABILITY_OWNERSHIP.md).
