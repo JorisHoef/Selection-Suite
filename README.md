@@ -136,3 +136,10 @@ git diff --check
 ## License
 
 See [LICENSE.md](LICENSE.md).
+
+## Quick Start
+
+1. Install the package through Deucarian Package Installer or Unity Package Manager using the URL above.
+2. Let Unity finish resolving packages and compiling assemblies.
+3. Import the `Selection Demo` sample if you want a working reference scene or setup.
+4. Start from the package README sections above and the public runtime/editor APIs in this repository.
